@@ -1,12 +1,8 @@
-﻿using DesignPatterns.SimpleFactory.Client;
-using DesignPatterns.SimpleFactory.ConcreteProduct;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+using DesignPatterns.CreationalDesignPatterns.SimpleFactory.Client;
+using DesignPatterns.CreationalDesignPatterns.SimpleFactory.ConcreteProduct;
 
-namespace DesignPatterns.SimpleFactory.ConcreteFactory
+namespace DesignPatterns.CreationalDesignPatterns.SimpleFactory.ConcreteFactory
 {
     internal class MobileFactory
     {
@@ -17,7 +13,7 @@ namespace DesignPatterns.SimpleFactory.ConcreteFactory
                 case BrandType.Xiaomi:
                     return new Xiaomi();
                 case BrandType.Samsung:
-                    return new Samsung();   
+                    return new Samsung();
                 default:
                     throw new ArgumentException("Invalid Mobile Brand");
             }

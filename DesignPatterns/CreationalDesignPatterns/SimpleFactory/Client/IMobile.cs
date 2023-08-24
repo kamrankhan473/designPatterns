@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.SimpleFactory
+namespace DesignPatterns.CreationalDesignPatterns.SimpleFactory.Client
 {
-    public enum BrandType
+    internal interface IMobile
     {
-        Xiaomi = 1,
-        Samsung
+        void GetMobile();
     }
 }

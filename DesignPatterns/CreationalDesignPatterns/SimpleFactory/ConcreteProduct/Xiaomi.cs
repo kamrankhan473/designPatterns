@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.CreationalDesignPatterns.SimpleFactory.ConcreteProduct
 {
-    internal class Xiaomi : IMobile
+    internal class Xiaomi : ISMethodMobile
     {
         public void GetMobile()
         {
-            Console.WriteLine("Xiaomi Mobile....");
+            Console.WriteLine("Simple Factory Xiaomi Mobile....");
         }
     }
 }

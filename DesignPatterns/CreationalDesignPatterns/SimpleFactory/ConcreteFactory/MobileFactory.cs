@@ -6,7 +6,7 @@ namespace DesignPatterns.CreationalDesignPatterns.SimpleFactory.ConcreteFactory
 {
     internal class MobileFactory
     {
-        public static IMobile GetMobile(BrandType brandType)
+        public static ISMethodMobile GetMobile(BrandType brandType)
         {
             switch (brandType)
             {

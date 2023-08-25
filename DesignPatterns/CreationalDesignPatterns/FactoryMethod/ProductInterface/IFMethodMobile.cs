@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.CreationalDesignPatterns.SimpleFactory.Client
+namespace DesignPatterns.CreationalDesignPatterns.FactoryMethod.Client
 {
-    internal interface IMobile
+    public interface IFMethodMobile
     {
         void GetMobile();
     }

@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.CreationalDesignPatterns.SimpleFactory.ConcreteProduct
 {
-    internal class Samsung : IMobile
+    internal class Samsung : ISMethodMobile
     {
         public void GetMobile()
         {
-            Console.WriteLine("Samsung Mobile....");
+            Console.WriteLine("Simple Factory Samsung Mobile....");
         }
     }
 }
